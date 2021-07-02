@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'pry'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
@@ -38,6 +38,7 @@ group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
   gem 'annotate'
   gem 'faker', "~> 2.4.0"
+  
 end
 
 group :development do
